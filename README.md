@@ -1,16 +1,24 @@
 # Cattle Breed Classifier
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115%2B-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Vite](https://img.shields.io/badge/Vite-5.4-646C9F?logo=vite&logoColor=white)](https://vitejs.dev)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+
 Web application and REST API for identifying Indian bovine breeds from images using a PyTorch ResNet-18 model trained on 41 indigenous cattle and buffalo breeds.
 
 ![SmartLivestock Preview](docs/screenshot.png)
 
 ## Features
 
-- 41 Indian bovine breed classifications with top-3 confidence scores
-- PyTorch ResNet-18 deep learning model with custom classifier head
-- React frontend with image upload, preview, and real-time prediction
-- FastAPI backend serving model inference and static frontend assets
-- Breed details including species, common physical traits, and estimated milk yield
+- 🧬 **41 Indian Bovine Breeds**: Accurate classification across indigenous cattle and buffalo breeds with top-3 confidence breakdown
+- ⚡ **PyTorch ResNet-18 Neural Network**: Deep learning backbone featuring custom sequential classifier layers for high-precision inference
+- 🎨 **Interactive React Frontend**: Responsive glassmorphic interface with drag-and-drop upload, live preview, and instant results
+- 🚀 **FastAPI Backend Server**: Asynchronous REST API delivering real-time predictions and optional single-port static app hosting
+- 📊 **Agricultural & Breed Insights**: Detailed breed profiles including species classification, physical traits, care notes, and estimated milk yield
 
 ## Project Structure
 
