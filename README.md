@@ -37,6 +37,35 @@ Breed/
 └── README.md
 ```
 
+## Environment Setup
+
+The application uses environment variables for Google Gemini enrichment and API routing.
+
+1. Navigate to the frontend directory:
+`ash
+cd project
+`
+
+2. Create your local .env.local file from the example template:
+`ash
+# Linux / macOS
+cp .env.example .env.local
+
+# Windows (PowerShell)
+Copy-Item .env.example .env.local
+`
+
+3. Add your Gemini API key in project/.env.local:
+`nv
+# Get a free key from https://aistudio.google.com/
+VITE_GEMINI_API_KEY=your_actual_gemini_api_key
+
+# Backend classification endpoint (defaults to local FastAPI server)
+VITE_CLASSIFIER_API=http://127.0.0.1:8000
+`
+
+All .env and .env.local files are excluded in .gitignore to ensure private keys are never committed.
+
 ## Getting Started
 
 ### Prerequisites
