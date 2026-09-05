@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.venv/
+**/.venv/
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Build outputs
+dist/
+**/dist/
+dist-ssr/
+build/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+*.local
+
+# Datasets and large media files
+Indian_bovine_breeds/
+New folder/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
